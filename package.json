@@ -1,0 +1,16 @@
+{
+  "name": "isolated-declaration-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ts-fix": "ts-fix -t ./tsconfig.json -f add-annotation --write --ignoreGitStatus",
+    "type-check": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.5.0-dev.20240502"
+  }
+}
